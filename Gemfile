@@ -13,5 +13,6 @@ gem "hashie"
 
 gem "octokit", "~> 2.0"
 
-gem "rspec"  :group :test do
-end 
+group :development do
+  gem "rspec"
+end
